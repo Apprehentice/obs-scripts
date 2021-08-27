@@ -1,3 +1,5 @@
+obs = obslua
+
 local src_info = {}
 src_info.id = "auto_muter"
 src_info.type = obs.OBS_SOURCE_TYPE_INPUT
