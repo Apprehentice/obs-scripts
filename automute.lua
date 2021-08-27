@@ -1,9 +1,3 @@
-obs = obslua
-target_scene = ""
-target_source = ""
-mute_state = false
-
---[[ Source ]]--
 local src_info = {}
 src_info.id = "auto_muter"
 src_info.type = obs.OBS_SOURCE_TYPE_INPUT
