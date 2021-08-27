@@ -50,7 +50,7 @@ end
 
 function script_description()
 	return [[
-        Adds a source that mutes another source when it is activated<br />
+        Adds a source that mutes or unmutes another source when it is activated<br />
         
         <pre>
 ISC License
