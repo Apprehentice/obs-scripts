@@ -7,8 +7,8 @@ src_info.output_flags = obs.OBS_SOURCE_DO_NOT_DUPLICATE
 
 src_info.create = function(settings, source)
     data = {
-        target_source = "",
-        mute_state = false
+        target_source = obs.obs_data_get_string(settings, "target_source") or "",
+        mute_state = obs.obs_data_get_bool(settings, "mute_state") or false
     }
 	return data
 end
